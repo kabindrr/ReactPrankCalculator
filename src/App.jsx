@@ -12,7 +12,6 @@ const App = () => {
   const [lastOperator, setLastOperator] = useState("");
   const [isMouseDown, setIsMouseDown] = useState();
   const [isPrank, setisPrank] = useState(false);
-
   const isEventAttached = useRef(false);
 
   useEffect(() => {
